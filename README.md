@@ -72,7 +72,7 @@ The resulting image highlights edges in grayscale.
     |   |-- image_512.ppm
     |   |-- image_1024.ppm
     |   |-- image_2048.ppm
-    |   |-- image_4096.ppm
+    |   |-- image_4096.ppm.gz
     |
     |-- output/
     |   |-- grayscale/
