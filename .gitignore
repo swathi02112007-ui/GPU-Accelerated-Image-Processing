@@ -1,0 +1,34 @@
+
+# Compiled CUDA executables
+grayscale
+gaussian_blur
+sobel_edge
+
+# Object files
+*.o
+*.obj
+
+# Temporary files
+*.tmp
+*.log
+output.txt
+
+# Generated image outputs
+output/*.ppm
+output/*/*.ppm
+
+# Build directories
+build/
+cmake-build-*/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
