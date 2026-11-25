@@ -1,0 +1,143 @@
+======================================
+ CUDA IMAGE PROCESSING PROJECT
+======================================
+
+======================================
+ Processing Image: 512 x 512
+======================================
+
+----- GRAYSCALE CONVERSION -----
+
+========== GRAYSCALE RESULTS ==========
+Image dimensions: 512 x 512
+CPU time: 3.33758 ms
+GPU kernel time: 0.106624 ms
+Output validation: PASSED
+Output file: output/grayscale/image_512_gray.ppm
+Kernel speedup: 31.3024x
+
+----- GAUSSIAN BLUR -----
+
+========== GAUSSIAN BLUR RESULTS ==========
+Image dimensions: 512 x 512
+CPU time: 107.594 ms
+GPU kernel time: 0.11424 ms
+Output validation: PASSED
+Output file: output/blurred/image_512_blur.ppm
+Kernel speedup: 941.828x
+
+----- SOBEL EDGE DETECTION -----
+
+========== SOBEL EDGE DETECTION RESULTS ==========
+Image dimensions: 512 x 512
+CPU time: 5.31254 ms
+GPU kernel time: 0.071936 ms
+Output validation: PASSED
+Output file: output/edges/image_512_edges.ppm
+Kernel speedup: 73.8509x
+
+======================================
+ Processing Image: 1024 x 1024
+======================================
+
+----- GRAYSCALE CONVERSION -----
+
+========== GRAYSCALE RESULTS ==========
+Image dimensions: 1024 x 1024
+CPU time: 3.26451 ms
+GPU kernel time: 0.082432 ms
+Output validation: PASSED
+Output file: output/grayscale/image_1024_gray.ppm
+Kernel speedup: 39.6025x
+
+----- GAUSSIAN BLUR -----
+
+========== GAUSSIAN BLUR RESULTS ==========
+Image dimensions: 1024 x 1024
+CPU time: 69.9809 ms
+GPU kernel time: 0.118816 ms
+Output validation: PASSED
+Output file: output/blurred/image_1024_blur.ppm
+Kernel speedup: 588.986x
+
+----- SOBEL EDGE DETECTION -----
+
+========== SOBEL EDGE DETECTION RESULTS ==========
+Image dimensions: 1024 x 1024
+CPU time: 20.9034 ms
+GPU kernel time: 0.164032 ms
+Output validation: PASSED
+Output file: output/edges/image_1024_edges.ppm
+Kernel speedup: 127.435x
+
+======================================
+ Processing Image: 2048 x 2048
+======================================
+
+----- GRAYSCALE CONVERSION -----
+
+========== GRAYSCALE RESULTS ==========
+Image dimensions: 2048 x 2048
+CPU time: 13.4003 ms
+GPU kernel time: 0.189472 ms
+Output validation: PASSED
+Output file: output/grayscale/image_2048_gray.ppm
+Kernel speedup: 70.7245x
+
+----- GAUSSIAN BLUR -----
+
+========== GAUSSIAN BLUR RESULTS ==========
+Image dimensions: 2048 x 2048
+CPU time: 285.02 ms
+GPU kernel time: 0.351616 ms
+Output validation: PASSED
+Output file: output/blurred/image_2048_blur.ppm
+Kernel speedup: 810.601x
+
+----- SOBEL EDGE DETECTION -----
+
+========== SOBEL EDGE DETECTION RESULTS ==========
+Image dimensions: 2048 x 2048
+CPU time: 83.3467 ms
+GPU kernel time: 0.35664 ms
+Output validation: PASSED
+Output file: output/edges/image_2048_edges.ppm
+Kernel speedup: 233.7x
+
+======================================
+ Processing Image: 4096 x 4096
+======================================
+
+----- GRAYSCALE CONVERSION -----
+
+========== GRAYSCALE RESULTS ==========
+Image dimensions: 4096 x 4096
+CPU time: 53.1897 ms
+GPU kernel time: 0.667328 ms
+Output validation: PASSED
+Output file: output/grayscale/image_4096_gray.ppm
+Kernel speedup: 79.7055x
+
+----- GAUSSIAN BLUR -----
+
+========== GAUSSIAN BLUR RESULTS ==========
+Image dimensions: 4096 x 4096
+CPU time: 1158.81 ms
+GPU kernel time: 1.84778 ms
+Output validation: PASSED
+Output file: output/blurred/image_4096_blur.ppm
+Kernel speedup: 627.14x
+
+----- SOBEL EDGE DETECTION -----
+
+========== SOBEL EDGE DETECTION RESULTS ==========
+Image dimensions: 4096 x 4096
+CPU time: 349.037 ms
+GPU kernel time: 1.58314 ms
+Output validation: PASSED
+Output file: output/edges/image_4096_edges.ppm
+Kernel speedup: 220.472x
+
+======================================
+ ALL IMAGE PROCESSING TASKS COMPLETED
+======================================
